@@ -41,30 +41,37 @@ public abstract class Merchandise {
 	public abstract Object getSpecificData();
 
 	public String getName() {
+
 		return name;
 	}
 
 	public void setName(String name) {
+
 		this.name = name;
 	}
 
 	public String getUniqueId() {
+
 		return uniqueId;
 	}
 
 	public void setUniqueId(String uniqueId) {
+
 		this.uniqueId = uniqueId;
 	}
 
 	public String getResponsibleId() {
+
 		return responsibleId;
 	}
 
 	public void setResponsibleId(String responsibleId) {
+
 		this.responsibleId = responsibleId;
 	}
 
 	public int getZone() {
+
 		return zone;
 	}
 
